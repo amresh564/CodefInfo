@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/textViewContestNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/teal_200"
+        android:layout_marginStart="16dp"
+        android:text="12"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toStartOf="@+id/textViewContestName"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewContestRank"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="326"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textViewContestName"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:textSize="16sp"
+        android:id="@+id/textViewContestName"
+        android:layout_width="353dp"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="Codeforces Round #709"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textViewContestNumber"
+        app:layout_constraintEnd_toStartOf="@+id/textViewContestRank"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textViewContestNumber" />
+</androidx.constraintlayout.widget.ConstraintLayout>

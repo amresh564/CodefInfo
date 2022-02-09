@@ -1,0 +1,74 @@
+{
+ "added": [
+  {
+   "id": 1,
+   "type": "implementation",
+   "installed_name": "gson",
+   "gpm_dep": {
+    "artifact_id": "converter-gson",
+    "default_type": "implementation",
+    "docs": "https://mvnrepository.com/artifact/com.squareup.retrofit2/converter-gson",
+    "get_from": "Central",
+    "group_id": "com.squareup.retrofit2",
+    "name": "Converter: Gson",
+    "description": "A Retrofit Converter which uses Gson for serialization."
+   }
+  },
+  {
+   "id": 2,
+   "type": "implementation",
+   "installed_name": "retrofit",
+   "gpm_dep": {
+    "artifact_id": "retrofit",
+    "default_type": "implementation",
+    "docs": "https://mvnrepository.com/artifact/com.squareup.retrofit2/retrofit",
+    "get_from": "Central",
+    "group_id": "com.squareup.retrofit2",
+    "name": "Retrofit",
+    "description": "A type-safe HTTP client for Android and Java."
+   }
+  },
+  {
+   "id": 3,
+   "type": "implementation",
+   "installed_name": "glide",
+   "gpm_dep": {
+    "artifact_id": "glide",
+    "default_type": "implementation",
+    "docs": "https://mvnrepository.com/artifact/com.github.bumptech.glide/glide",
+    "get_from": "Central",
+    "group_id": "com.github.bumptech.glide",
+    "name": "Glide",
+    "description": "A fast and efficient image loading library for Android focused on smooth scrolling."
+   }
+  },
+  {
+   "id": 4,
+   "type": "implementation",
+   "installed_name": "coroutines-android",
+   "gpm_dep": {
+    "artifact_id": "kotlinx-coroutines-android",
+    "default_type": "implementation",
+    "docs": "https://mvnrepository.com/artifact/org.jetbrains.kotlinx/kotlinx-coroutines-android",
+    "get_from": "Central",
+    "group_id": "org.jetbrains.kotlinx",
+    "name": "Kotlinx Coroutines Android",
+    "description": "Coroutines support libraries for Kotlin"
+   }
+  },
+  {
+   "id": 5,
+   "type": "implementation",
+   "installed_name": "glide",
+   "gpm_dep": {
+    "artifact_id": "annotations",
+    "default_type": "implementation",
+    "docs": "https://mvnrepository.com/artifact/com.github.bumptech.glide/annotations",
+    "get_from": "Central",
+    "group_id": "com.github.bumptech.glide",
+    "name": "Glide Annotations",
+    "description": "A set of annotations for configuring Glide."
+   }
+  }
+ ]
+}

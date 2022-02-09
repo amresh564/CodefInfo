@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/textViewRank"
+        android:layout_width="140dp"
+        android:layout_height="112dp"
+        android:layout_marginTop="1dp"
+
+        android:textAlignment="center"
+        app:layout_constraintEnd_toStartOf="@+id/textViewRating"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewMaxRank" />
+
+    <TextView
+        android:id="@+id/textViewFriends"
+        android:layout_width="127dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="1dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/imageViewAvtar"
+        app:layout_constraintTop_toBottomOf="@+id/textViewHnadle" />
+
+    <TextView
+        android:id="@+id/textViewContribution"
+        android:layout_width="127dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="1dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/imageViewAvtar"
+        app:layout_constraintTop_toBottomOf="@+id/textViewFriends" />
+
+    <ImageView
+        android:id="@+id/imageViewAvtar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/textViewHnadle"
+        android:layout_width="127dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="1dp"
+
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/imageViewAvtar"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewAvtar" />
+
+    <TextView
+        android:id="@+id/textViewMaxRank"
+        android:layout_width="140dp"
+        android:layout_height="111dp"
+
+        app:layout_constraintEnd_toStartOf="@+id/textViewMaxRating"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewRegistrationTime"
+        android:layout_width="204dp"
+        android:layout_height="wrap_content"
+
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textViewLastOnline"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewLastOnline"
+        android:layout_width="204dp"
+        android:layout_height="wrap_content"
+
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textViewRegistrationTime"
+        app:layout_constraintTop_toBottomOf="@+id/textViewContribution" />
+
+    <TextView
+        android:id="@+id/textViewMaxRating"
+        android:layout_width="140dp"
+        android:layout_height="111dp"
+        android:layout_marginEnd="2dp"
+
+        app:layout_constraintEnd_toStartOf="@+id/imageViewAvtar"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textViewMaxRank"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewRating"
+        android:layout_width="140dp"
+        android:layout_height="112dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="2dp"
+
+        app:layout_constraintEnd_toStartOf="@+id/imageViewAvtar"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textViewRank"
+        app:layout_constraintTop_toBottomOf="@+id/textViewMaxRating" />
+</androidx.constraintlayout.widget.ConstraintLayout>
