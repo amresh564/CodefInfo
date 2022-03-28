@@ -3,8 +3,7 @@ Android app using Codeforces API.
 
 ## Screenshot
 <p>
-  <img width=33% align=right src="images/example1.jpg">
-  <img src="images/example.gif" />
+  <img width=39%  align=right src="images/example1.jpg">
 </p>
 
 
